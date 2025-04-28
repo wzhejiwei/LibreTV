@@ -80,7 +80,7 @@ docker run -d \
 version: '3'
 services:
   libretv:
-    image: bestzwei/libretv:latest
+    image: wzhejiwei/libretv:latest
     container_name: libretv
     ports:
       - "8899:80"
